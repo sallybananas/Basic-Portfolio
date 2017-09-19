@@ -7,10 +7,15 @@ html {
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
+    display: block;
 }
 .content {
     min-height: 100%;
+    margin-bottom: -30px;
+}
+.content::after {
+    content: "";
+    display: block;
 }
 .header {
     position: fixed;
@@ -59,8 +64,9 @@ body {
     margin-bottom: -34px;
     padding: 20px;
     border: 1px solid #A9A9A9;
+    display: block +13.33px;
 }
-.h1{
+.h1 {
     color: #4aaaa5;
 }
 .list {
@@ -106,6 +112,9 @@ body {
     padding: 20px;
     border: 1px solid #A9A9A9;
 }
+.footer, .content::after {
+    height: -43.33px;
+}
 .footer {
     clear: both;
     position: fixed;
@@ -115,8 +124,7 @@ body {
     margin-top: 25px;
     border-top: 1px solid #4aaaa5;
     border-left: 1px solid #4aaaa5;
-    background-color: rgba(102, 102, 102, 0.48);
+    background-color: rgb(102, 102, 102);
     color: white;
-    line-height: 30px;
     padding-top: 0px;
 }
