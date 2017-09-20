@@ -34,7 +34,7 @@ html {
 #name {
     width: 100px;
     height: 60px;
-    background-color: black
+    background-color: black;
     background-image: -webkit-gradient(linear, top, bottom);
     background-image: -webkit-linear-gradient(grey, grey, black);
     background-image: -moz-linear-gradient(grey, grey, black);
