@@ -35,7 +35,6 @@ html {
     width: 100px;
     height: 60px;
     background-color: black;
-    background-image: -webkit-gradient(linear, top, bottom);
     background-image: -webkit-linear-gradient(grey, grey, black);
     background-image: -moz-linear-gradient(grey, grey, black);
     background-image: linear-gradient(to bottom, grey, black);;
@@ -44,7 +43,6 @@ html {
     margin-left: 13.33px;
     float: left;
     box-shadow: 5px 5px 30px 2px grey;
-    align-self: center;
 }
 #nav {
     position: fixed;
