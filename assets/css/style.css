@@ -142,7 +142,6 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
-
 input[type=submit] {
     background-color: #000000;
     color: white;
@@ -151,11 +150,9 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
-
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
