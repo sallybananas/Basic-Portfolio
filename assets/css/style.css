@@ -110,9 +110,13 @@ body {
 }
 .social {
     position: relative;
+    float: left;
+    
     top: 115px;
     left: 0px;
+    /*
     overflow: auto;
+    */
     width: 270px;
     float: left;
     background-color: #ffffff;
@@ -122,9 +126,11 @@ body {
     padding: 20px;
     border: 1px solid #000000;
 }
+/*
 .footer, .content::after {
     height: -43.33px;
 }
+*/
 .footer {
     position: fixed;
     left: 20px;
