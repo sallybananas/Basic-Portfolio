@@ -65,16 +65,10 @@ body {
     background-color: #ffffff;
     margin-left: 13.33px;
     margin-top: 45px;
-    margin-bottom: 13.33px;
+    margin-bottom: -26px;
     padding: 20px;
     border: 1px solid #000000;
 }
-/*
-.spacer {
-    line-height: 13.33px;
-    background-color: red;
-}
-*/
 .h1 {
     color: #000000;
     margin: 0px;
@@ -122,15 +116,10 @@ body {
     background-color: #ffffff;
     color: #000000;
     margin-left: 13.33px;
-    margin-bottom: 13.33px;
+    margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #000000;
 }
-/*
-.footer, .content::after {
-    height: -43.33px;
-}
-*/
 .footer {
     position: fixed;
     left: 20px;
