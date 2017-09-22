@@ -65,9 +65,13 @@ body {
     background-color: #ffffff;
     margin-left: 13.33px;
     margin-top: 45px;
-    margin-bottom: -34px;
+    margin-bottom: -34.33px;
     padding: 20px;
     border: 1px solid #000000;
+}
+.spacer {
+    line-height: 13.33px;
+    background-color: red;
 }
 .h1 {
     color: #000000;
@@ -112,7 +116,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     margin-left: 13.33px;
-    margin-bottom: 71px;
+    margin-bottom: 13.33px;
     padding: 20px;
     border: 1px solid #000000;
 }
