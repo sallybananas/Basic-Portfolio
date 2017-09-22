@@ -47,7 +47,7 @@ html {
 }
 #nav {
     position: fixed;
-    left: 445px;
+    left: 388px;
     margin-left: 50px;
     overflow: scroll;
     padding: 20px;
@@ -65,14 +65,16 @@ body {
     background-color: #ffffff;
     margin-left: 13.33px;
     margin-top: 45px;
-    margin-bottom: -34.33px;
+    margin-bottom: 13.33px;
     padding: 20px;
     border: 1px solid #000000;
 }
+/*
 .spacer {
     line-height: 13.33px;
     background-color: red;
 }
+*/
 .h1 {
     color: #000000;
     margin: 0px;
