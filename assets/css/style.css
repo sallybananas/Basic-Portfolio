@@ -154,3 +154,41 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+.holder {
+    width: 200px;
+    margin: 0px;
+  }
+  .special-offer {
+      position: relative;
+  }
+  .special-offer::before,
+  .special-offer::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-color: transparent;
+      border-style: solid;
+  }
+  .special-offer::before {
+      border-width: 70px;
+      border-right-color: #D33D3D;
+      border-top-color: #D33D3D;
+      z-index: 3;
+  }
+  .special-offer::after {
+      content: 'Check it!';
+      top: 30px;
+      right: -5px;
+      z-index: 4;
+      text-transform: uppercase;
+      color: #fff;
+      white-space: pre;
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-align: center;
+      -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  }
